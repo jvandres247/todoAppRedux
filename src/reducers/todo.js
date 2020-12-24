@@ -1,6 +1,6 @@
 const dataInicial = [];
 
-const todo = (state = dataInicial, action) => {
+const todos = (state = dataInicial, action) => {
   switch (action.type) {
     case "AGREGAR":
       return [...state, action.data];
@@ -11,4 +11,4 @@ const todo = (state = dataInicial, action) => {
   }
 };
 
-export default todo;
+export default todos;

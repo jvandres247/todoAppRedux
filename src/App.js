@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {agregarTarea, eliminarTarea} from './actions/todo';
 
 const App = () => {
-  const tareas = useSelector((state) => state.todo);
+  const tareas = useSelector((state) => state.todos);
 
   const dispatch = useDispatch();
 
